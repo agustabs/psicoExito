@@ -6,17 +6,10 @@
 
 .navbar, .footer{
     background-color: #611428;
-}
-
-.bodyPages{
-    background-color: rgb(247, 242, 242);
-}
-
-.navIndex, .footerIndex{
     opacity: 0.7;
 }
 
-.indexPage{
+body{
     background-image: url(../img/indexBg.jpg);
     background-attachment: fixed;
     background-position: center;
