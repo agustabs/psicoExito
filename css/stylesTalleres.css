@@ -1,0 +1,202 @@
+.contenedor{
+    display: flex;
+    margin: 10px 80px 40px 80px;
+    justify-content: space-between;
+    background-color: #E5A30E;
+    /*opacity: 0.7;*/
+    padding: 20px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    min-width: 290px;
+}
+.contenedorTaller{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.dp-flex{
+    display: flex;
+    padding: 20px;
+}
+.imgAboutMe{
+    width: 250px;
+    height: 180px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.subTitulos{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+.description{
+    margin-left: 30px;
+    margin-top: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+.tituloTaller{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+}
+.marginBottom{
+    margin-bottom: 20px;
+}
+
+
+/*talleres, responsive*/
+@media (max-width: 500px) {
+    .contenedor{
+        display: block;
+    }
+    .dp-flex{
+        display: block;
+    }
+    .description{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .imgAboutMe{
+        width: 180px;
+        height: 180px;
+    }
+    .contenedorTaller{
+        margin-left: 10px;
+        margin-right: 10px;
+        border-style: solid;
+        border-radius: 15px;
+    }
+}
+  /*aboutme, responsive 500 en adelante*/
+@media (min-width: 501px) and (max-width: 600px) {
+    .contenedor{
+        display: block;
+    }
+    .dp-flex{
+        display: block;
+    }
+    .description{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .imgAboutMe{
+        width: 230px;
+        height: 180px;
+    }
+    .contenedorTaller{
+        margin-left: 10px;
+        margin-right: 10px;
+        border-style: solid;
+        border-radius: 15px;
+    }
+}
+ /*aboutme, responsive 600 en adelante*/
+@media (min-width: 601px) and (max-width: 700px) {
+    .contenedor{
+        display: block;
+    }
+    .dp-flex{
+        display: block;
+    }
+    .description{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .imgAboutMe{
+        width: 330px;
+        height: 180px;
+    }
+    .contenedorTaller{
+        margin-left: 10px;
+        margin-right: 10px;
+        border-style: solid;
+        border-radius: 15px;
+    }
+}
+   /*aboutme, responsive 700 en adelante*/
+@media (min-width: 701px) and (max-width: 800px) {
+    .contenedor{
+        display: block;
+    }
+    .dp-flex{
+        display: block;
+    }
+    .description{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .imgAboutMe{
+        width: 430px;
+        height: 180px;
+    }
+    .contenedorTaller{
+        margin-left: 10px;
+        margin-right: 10px;
+        border-style: solid;
+        border-radius: 15px;
+    }
+}
+     /*aboutme, responsive 800 en adelante*/
+@media (min-width: 801px) and (max-width: 900px) {
+        .contenedor{
+            display: block;
+        }
+        .dp-flex{
+            display: block;
+        }
+        .description{
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .imgAboutMe{
+            width: 530px;
+            height: 180px;
+        }
+        .contenedorTaller{
+            margin-left: 10px;
+            margin-right: 10px;
+            border-style: solid;
+            border-radius: 15px;
+        }
+}
+      /*aboutme, responsive 900 en adelante*/
+@media (min-width: 901px) and (max-width: 1000px) {
+        .contenedor{
+            display: block;
+        }
+        .dp-flex{
+            display: block;
+        }
+        .description{
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .imgAboutMe{
+            width: 630px;
+            height: 250px;
+        }
+        .contenedorTaller{
+            margin-left: 10px;
+            margin-right: 10px;
+            border-style: solid;
+            border-radius: 15px;
+        }
+}
+    /*aboutme, responsive 1000 en adelante*/
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .imgAboutMe{
+        width: 250px;
+        height: 250px;
+    }
+}
+    /*aboutme, responsive 1100 en adelante*/
+@media (min-width: 1101px) and (max-width: 1300px) {
+    .imgAboutMe{
+        width: 250px;
+        height: 220px;
+    }
+}
